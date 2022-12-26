@@ -9,8 +9,8 @@ else:
 
 # Palindrome checker without user input. Works for strings, not for number (integers):
 str_p = "1234"
-reverse_input = reversed(str_p)
-if list(str_p) == list(reverse_input):
+reverse_str = reversed(str_p)
+if list(str_p) == list(reverse_str):
    print(f"{str_p} is a palindrome")
 else:
    print(f"{str_p} is not a palindrome")
